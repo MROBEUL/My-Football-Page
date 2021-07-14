@@ -6,8 +6,30 @@ body{
 /*----bg and font part start ----*/
 
 /*----header start----*/
+.header-part{
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    align-items: center;
+    
+} 
+.welcom-part{
+    width: 70%;
+    padding-left: 100px;
 
-
+}
+.welcome-talk{
+    font-size: 30px;
+    color: wheat;
+    padding-left: 15px;
+}
+.header-part img{
+    width: 40%;
+    float:right;
+    padding: 50px 40px  ;
+}
 
 /*----header end----*/
 
@@ -17,8 +39,7 @@ body{
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      width: 1050px;
-     margin: auto;
-     
+     margin: auto;  
  }
  .player-detail{
     margin: 15px;
@@ -63,7 +84,7 @@ body{
      padding-left: 15px;
 
  }
- .events a{
+ a{
      color: white;
      font-size: 12px;
      text-decoration: none;
@@ -71,6 +92,11 @@ body{
      background: blueviolet;
      margin-left: 15px;
      padding: 5px 10px;
+ }
+ .events .fa{
+     color: white;
+     font-size: 15px;
+     background: none;
  }
 
 #wordlcup-2022:hover{
@@ -100,6 +126,13 @@ body{
     padding: 5px;
     border-radius: 50%;
 }
+/*----last style overight first one so , #live-watch .fa here--*/
+
+#live-watch .fa{
+    color: white;
+    font-size: 15px;
+    background: none;
+}
 #copyright{
     font-size: 16px;
     text-align: center;
@@ -107,6 +140,7 @@ body{
 #copyright .fa{
     background: none;
 }
+
  /*------fotter part end -----*/
 
  animation: mymove 5s infinite;
