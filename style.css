@@ -1,0 +1,81 @@
+/*----bg and font part start ----*/
+body{
+    background:  white;
+    font-family: 'Poppins', sans-serif;
+}
+/*----bg and font part start ----*/
+
+/*----header start----*/
+
+
+
+/*----header end----*/
+
+
+ /*-- !body section-1 start --*/
+ .player-list{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     width: 1050px;
+     margin: auto;
+     
+ }
+ .player-detail{
+    margin: 15px;
+    padding: 10px;;
+    box-shadow: 10px 10px 10px 10px whitesmoke;
+ }
+.player-detail img{
+    width: 100%;
+}
+.player-name{
+    font-size: 28px;
+    margin: 10px 0px;
+}
+.player-info p{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+ /*-- !body section-1 end  ---*/
+
+/*-- !body section-2 start  ---*/
+ .world-events{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     width: 1050px;
+     margin: auto;
+ }
+ .events{
+     display: flex;
+     margin: 50px;
+     align-items: center;
+ }
+ .events img{
+     width: 600px;
+     padding: 15px;
+ }
+ .Highlights{
+     font-size: 28px;
+     padding-left: 15px;
+ }
+ .events p{
+     font-size: 16px;
+     padding-left: 15px;
+
+ }
+ .events a{
+     color: white;
+     font-size: 12px;
+     text-decoration: none;
+     text-transform: uppercase;
+     background: blueviolet;
+     margin-left: 15px;
+     padding: 5px 10px;
+
+ }
+ .wordlcup-2022 img{
+     position: relative;
+ }
+
+
+ /*-- !body section-2 end  ---*/
