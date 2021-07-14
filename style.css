@@ -81,38 +81,32 @@ body{
  /*-- !body section-2 end  ---*/
  /*------fotter part start -----*/
 
- .fotter-part{
-     width: 450px;
-     justify-content: center;
- }
- .fotter{
-     display: grid;
-     grid-template-rows: repeat(3,1fr);
-     justify-content: center;
-     margin-top: 50px;
-     margin-bottom: 20px;
-     margin-left: 500px;
-     margin-right: 400px;
-
- }
-.fotter-part img{
-    width: 300px;
-    padding: 10px;
-    
+.fotter-part{
+   margin-top: 50px;
+}
+.fotter img{
+    width:300px;
+    display: block;
+    margin: auto;
 }
 #icons{
-    width: 400px;
-    color: silver;
-    justify-content: center;
+    margin: auto;
+    width: 100%;
+    color: silver; 
+    text-align:center !important;
 }
 .fa{
     background-color: gainsboro;
     padding: 5px;
     border-radius: 50%;
-    align-items: center;
 }
-
-
+#copyright{
+    font-size: 16px;
+    text-align: center;
+}
+#copyright .fa{
+    background: none;
+}
  /*------fotter part end -----*/
 
  animation: mymove 5s infinite;
